@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+    <h1>HTML input types (Forms):</h1>
+        <form action="/registration" method="post">
+        <h2>Username and Password:</h2>
+            <label for="username">Username:</label><br>
+            <input type="text" name="username"><br><br>
+            <label for="password">Password:</label><br>
+            <input type="password" /><br><br>
+            <input type="submit"><br>
+        <h2>Checkbox:</h2>
+            <input type="checkbox" id="dog" name="Dog" value="Dog" />
+            <label for="dog">I own the Dog</label><br>
+            <input type="checkbox" id="cat" name="Cat" value="Cat" />
+            <label for="cat">I own a Cat</label>
+        <h2>Radio button:</h2>
+            <input type="radio" id="right" name="type-hand" value="Right" />
+            <label for="right">I am right-handed</label><br>
+            <input type="radio" id="left" name="type-hand" value="Left" />
+            <label for="left">I am left-handed</label><br>
+            <input type="radio" id="ambidextrous" name="type-hand" value="Ambidextrous">
+            <label for="ambidextrous">I am ambidextrous</label>
+        <h2>Other input types:</h2>
+            <label for="age">Age:</label><br>
+            <input type="number" name="age" /><br><br>
+            <label for="email">E-Mail:</label><br>
+            <input type="email" name="email" /><br><br>
+            <input type="file" name="file">
+        <h2>Text area:</h2>
+        <h4>1- one line</h4>
+            <input type="text" name="username"><br><br>
+        <h4>2- multiline</h4>
+            <textarea name="multiline" id="textarea" cols="30" rows="10"></textarea>
+        <h2>Drop-down list (Select):</h2>
+        <p>The select element is used to create a drop-down list.</p>
+            <label for="fav_language">Choose your favorite language:</label>
+            <select name="fav_language" id="fav_language">
+                <option value="HTML">HTML</option>
+                <option value="CSS">CSS</option>
+                <option value="JavaScript">JavaScript</option>
+                <option value="Python">Python</option>
+            </select><br><br>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</body>
+</html>
